@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_failures_scooterNumber"
+        android:layout_width="57dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_failures_carrierName"
+        android:layout_width="131dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="26dp"
+        app:layout_constraintStart_toEndOf="@+id/txt_failures_scooterNumber"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ic_failures_1"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/txt_failures_carrierName"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_battery_red" />
+
+    <ImageView
+        android:id="@+id/ic_failures_2"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/ic_failures_1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_lights_red" />
+
+    <ImageView
+        android:id="@+id/ic_failures_3"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/ic_failures_2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_scooter_red" />
+
+    <ImageView
+        android:id="@+id/ic_failures_5"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ic_failures_3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_key_red" />
+</android.support.constraint.ConstraintLayout>
