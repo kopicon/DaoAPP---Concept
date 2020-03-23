@@ -9,7 +9,7 @@ The application begins with a login screen, after valid authentication the appli
  The i button directs the user to a pop-up where the administrator can set the status of the carriers manually.<br>
  The status is usually refreshed by the carriers at the end of their daily route.<br>
  ![](https://i.gyazo.com/fbad0f0307a95e12a43650614c2b8839.png)<br>
- # Routlist/map
+ # Rout List/Map
  This is a Tab view with two tabs list/map. In the list option the user can select the different routes and sub-routes from the database
  and check all the information from the specific address. The number button shows how much newspaper is there to deliver, the other option navigates
  the user to the details tab of the address, where the newspapers, and the exact location of the addres can be reached.<br>
