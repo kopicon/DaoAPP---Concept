@@ -1,7 +1,7 @@
 # DaoAPP---Concept
 
 This application is a School project work of concept application for a newspaper delivery company.<br><br>
-The application begins with a login screen, after valid authentication the application navigate the user to the main menu
+The application begins with a login screen, after valid authentication the application navigates the user to the main menu
 # The main menu contains five different functions of the application.<br>
  ![](https://i.gyazo.com/6d7e1d2b331a2b91a11e9517411084ec.png)<br>
  # Route Status
