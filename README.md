@@ -7,19 +7,19 @@ The application begins with a login screen, after valid authentication the appli
  # Route Status
  This option shows the carriers of the route if they are finnished with there work or not.<br>
  The i button directs the user to a pop-up where the administrator can set the status of the carriers manually.<br>
- The status is usually refreshed by the carriers at the end of their daily route.<br>
+ The status is usually refreshed by the carriers at the end of their daily route.<br><br>
  ![](https://i.gyazo.com/fbad0f0307a95e12a43650614c2b8839.png)<br>
  # Rout List/Map
  This is a Tab view with two tabs list/map. In the list option the user can select the different routes and sub-routes from the database
- and check all the information from the specific address. The number button shows how much newspaper is there to deliver, the other option navigates
- the user to the details tab of the address, where the newspapers, and the exact location of the addres can be reached.<br>
+ and check all the information from the specific address. The number button shows how much newspaper is there to deliver, the other    option navigates
+ the user to the details tab of the address, where the newspapers, and the exact location of the addres can be reached.<br><br>
  ![](https://i.gyazo.com/4395e02accb61f228f2ef282e0dfb59f.png)<br>
  ![](https://i.gyazo.com/b330488ed3cd2c7af7acda50c66fd40d.png)<br>
  # Carriers
  This submenu contanins the information of all the carriers. The manager can reach an user interface where the CRUD functions are available on the carriers.
  With the carriers today selected it is available to see the workers who are working that morning.
  At this section the manager can reach the current location of each carrier on google maps, and in case of problem navigate to them.
- <br>
+ <br><br>
  ![](https://i.gyazo.com/761f9ce1b8e63b596d073d6fab927d02.png)<br>
  ![](https://i.gyazo.com/d5f125acc1d978e9c404b79d82503337.png)<br>
  # Problems
